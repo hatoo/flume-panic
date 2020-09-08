@@ -27,8 +27,7 @@ checksum = "4785bdd1c96b2a846b2bd7cc02e86b6b3dbf14e7e53446c4f54c92a361040822"
 [[package]]
 name = "flume"
 version = "0.8.4"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "21f39cf120a8b2e25f325d4ca7637f9cae8e3dcc9134b7811a3c35e0353f5518"
+source = "git+https://github.com/Restioson/flume.git?branch=async-edits#3ed0f316dde64e3693f24fb66afdf5492badc318"
 dependencies = [
  "futures",
  "rand",

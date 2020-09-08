@@ -8,6 +8,7 @@ async fn main() {
         let n_sends = 100000;
         for _ in 0..n_sends {
             tx.send_async(()).await.unwrap();
+            // tx.send().unwrap() is OK
         }
         println!("send end");
     });
