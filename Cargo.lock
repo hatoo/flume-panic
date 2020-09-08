@@ -27,7 +27,7 @@ checksum = "4785bdd1c96b2a846b2bd7cc02e86b6b3dbf14e7e53446c4f54c92a361040822"
 [[package]]
 name = "flume"
 version = "0.8.4"
-source = "git+https://github.com/Restioson/flume.git?branch=async-edits#3ed0f316dde64e3693f24fb66afdf5492badc318"
+source = "git+https://github.com/Restioson/flume.git?branch=async-edits#6f318d5f5f7416958e19d36162233f25c50a05b0"
 dependencies = [
  "futures",
  "rand",
